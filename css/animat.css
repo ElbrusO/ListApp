@@ -1,0 +1,24 @@
+.perekat {
+	animation-name: rotation;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes rotation {
+    0% {
+        transform:rotate(0deg);
+    }
+    25% {
+        transform:rotate(24deg);
+    }
+    50% {
+        transform:rotate(0deg);
+    }
+    75% {
+        transform:rotate(-28deg);
+    }
+    100% {
+    	transform:rotate(0deg);
+    }
+}
